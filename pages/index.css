@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/header.css);
@@ -7,5 +8,4 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
-@import url(../vendor/inter.css);
 @import url(../blocks/margins/margins.css);

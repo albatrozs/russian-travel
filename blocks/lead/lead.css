@@ -3,9 +3,14 @@
 @import url(./__image/lead__image.css);
 @import url(./__title/lead__title.css);
 
+.lead{
+    padding-top: 48px;
+}
+
 @media all and (min-width: 1280px) {
     .lead{
         padding-right: 100px;
         padding-left: 100px;
+        padding-top: 56px;
     }
 }
