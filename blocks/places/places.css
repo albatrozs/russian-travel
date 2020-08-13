@@ -5,10 +5,13 @@
 @import url(./__url-heading/places__url-heading.css);
 @import url(./__website/places__website.css);
 @import url(./__paragraph/places__paragraph.css);
+@import url(./__text-column/places__text-column.css);
+@import url(./__paragraph/_bottom-margin/places__paragraph_bottom-margin.css);
 
 .places{
     display: grid;
     grid-template-rows: 5, 1fr;
+    max-width: 1280px;
 }
 
 @media all and (max-width: 425px){

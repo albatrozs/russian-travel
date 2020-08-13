@@ -1,8 +1,11 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang/header__lang.css);
+@import url(./__lang-link/_activ/header__lang-link_activ.css);
+@import url(./__logo/header__logo.css);
 
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1280px;
 }

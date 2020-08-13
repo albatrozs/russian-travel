@@ -8,11 +8,13 @@
     margin-bottom: 56px;
     margin-top: 0px;
     color: #FFFFFF;
+    max-width: 640px;
 }
-@media all and (max-width: 425px){
+@media all and (max-width: 768px){
     .lead__subtitle{
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 40px;
+        max-width: 288px;
     }
 }

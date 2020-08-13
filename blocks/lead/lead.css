@@ -3,14 +3,20 @@
 @import url(./__image/lead__image.css);
 @import url(./__title/lead__title.css);
 
+
 .lead{
-    padding-top: 48px;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
-@media all and (min-width: 1280px) {
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
     .lead{
         padding-right: 100px;
         padding-left: 100px;
-        padding-top: 56px;
     }
 }

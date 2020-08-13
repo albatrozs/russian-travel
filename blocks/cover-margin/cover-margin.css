@@ -1,0 +1,10 @@
+ .cover-margin{
+        margin: 0px;
+    } 
+
+@media all and (min-width: 1280px){
+    .cover-margin{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
