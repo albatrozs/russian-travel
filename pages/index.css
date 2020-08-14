@@ -13,6 +13,6 @@
 @import url(../blocks/header-margin/header-margin.css);
 @import url(../blocks/footer-margin/footer-margin.css);
 @import url(../blocks/cover-margin/cover-margin.css);
+@import url(../blocks/margin-auto/margin-auto.css);
 
 
-*{outline: 1px solid red;}

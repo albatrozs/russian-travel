@@ -9,6 +9,8 @@
     max-width: 720px;
     margin-bottom: 32px;
     margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media all and (min-width: 425px) and (max-width: 768px){
