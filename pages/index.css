@@ -10,9 +10,6 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/margins/margins.css);
 @import url(../blocks/content/content.css);
-@import url(../blocks/header-margin/header-margin.css);
-@import url(../blocks/footer-margin/footer-margin.css);
-@import url(../blocks/cover-margin/cover-margin.css);
-@import url(../blocks/margin-auto/margin-auto.css);
+@import url(../blocks/container/container.css);
 
 

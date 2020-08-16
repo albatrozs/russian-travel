@@ -1,7 +1,8 @@
 @import url(./__column/footer__column.css);
 @import url(./__link/footer__link.css);
-@import url(./_copyright/footer__column_copyright.css);
-@import url(./_links/footer__column_links.css);
+@import url(./__column/_copyright/footer__column_copyright.css);
+@import url(./__column/_links/footer__column_links.css);
+@import url(./__list/footer__list.css);
 
 .footer{
   display: flex;
@@ -10,25 +11,8 @@
   max-width: 1280px;
 }
 
-@media all and (max-width: 760px){
+@media all and (max-width: 767px){
   .footer{
-    max-width: 186px;
     flex-direction: column;
-  } 
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px){
-  .footer{
-    max-width: 720px;
-  } 
-}
-@media all and (min-width: 1024px) and (max-width: 1280px){
-  .footer{
-    max-width: 928px;
-  } 
-}
-@media all and (min-width: 1280px) {
-  .footer{
-    max-width: 1184px;
   } 
 }

@@ -1,6 +1,7 @@
 .header__logo{
     width: 176px;
     height: 52px;
+    margin-bottom: 48px;
 }
 
 @media all and (max-width: 425px){
@@ -9,3 +10,24 @@
         height: 42px;
     } 
   }
+
+@media all and (max-width: 425px){
+    .header__logo{
+        margin-left: 16px;
+    } 
+}
+@media all and (min-width: 425px) and (max-width: 1023px){
+    .header__logo{
+        margin-left: 24px;
+    }
+}
+@media all and (min-width: 1024px){
+    .header__logo{
+        margin-left: 48px;
+        }
+}
+@media all and (min-width: 1280px){
+    .header__logo{
+    margin-bottom: 56px;
+    }
+}

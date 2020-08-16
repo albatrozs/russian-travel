@@ -1,5 +1,4 @@
 .lead__caption{
-    margin: 0px;
     font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -8,6 +7,30 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
-    justify-self: flex-start;
-    
-}   
+    justify-self: left;
+    margin-top: 0px;
+    margin-bottom: 92px;
+}
+
+@media all and (max-width: 424px){
+    .lead__caption{
+        margin-left: 16px;
+        margin-bottom: 64px;
+    } 
+}
+@media all and (min-width: 425px) and (max-width: 1023px){
+    .lead__caption{
+        margin-left: 24px;
+        margin-bottom: 88px; 
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1279px){
+    .lead__caption{
+        margin-left: 48px;
+        }
+}
+@media all and (min-width: 1280px){
+    .lead__caption{
+        margin-left: 148px;
+        }
+}

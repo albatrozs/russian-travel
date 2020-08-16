@@ -6,6 +6,7 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
+    align-self: flex-end;
 }
 
 .places__title{
@@ -13,7 +14,7 @@
     grid-template-rows: 5, 1fr;
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 424px){
     .places__title{
         font-size: 32px;
         line-height: 35px;  

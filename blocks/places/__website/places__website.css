@@ -1,12 +1,11 @@
 .places__website{
-    padding-bottom: 48px;
-    display: grid;
-    grid-template-rows: repeat(2, 25%);
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-@media all and (max-width: 425px) {
-    .places__website{
-      display: none;
-    }
+@media all and (max-width: 767px) {
+  .places__website{
+    display: none;
+  }
 }

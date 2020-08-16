@@ -6,15 +6,17 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    justify-self: center;
     max-width: 360px;
-    margin: auto;
+    margin: 0;
     z-index: 4;
+    
 }
 
-@media all and (max-width: 768px){
+@media all and (max-width: 767px){
     .cover__subtitle{
         font-size: 14px;
         line-height: 16px;
-        width: 240px;
+        max-width: 288px;
     } 
 }

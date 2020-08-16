@@ -5,5 +5,28 @@
     gap: 18px;  
     list-style-type: none;
     padding: 0px 0px;
-    margin: 0px;
+    margin-bottom: 48px;
+    margin-top: 18px;
+}
+
+@media all and (max-width: 425px){
+    .header__lang{
+        margin-right: 16px;
+        margin-top: 14px;
+    } 
+}
+@media all and (min-width: 425px) and (max-width: 1023px){
+    .header__lang{
+        margin-right: 24px;
+    }
+}
+@media all and (min-width: 1024px){
+    .header__lang{
+        margin-right: 48px;
+        }
+}
+@media all and (min-width: 1280px){
+    .header__lang{
+    margin-bottom: 56px;
+    }
 }

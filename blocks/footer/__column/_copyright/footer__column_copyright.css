@@ -1,0 +1,23 @@
+.footer__column_copyright{
+    font-family: 'Inter', Arial, sans-serif;
+    font-style:  normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right: 48px;;
+    margin-top: 0px;
+    
+    width: 186px;
+    
+}
+
+@media all and (max-width: 767px){
+    .footer__column_copyright{
+        line-height: 14px;
+        text-align: left;
+        margin-top: 16px;
+        padding-left: 24px;
+    } 
+  }

@@ -5,17 +5,8 @@
 
 
 .lead{
-    max-width: 984px;
+    max-width: 1280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-}
-
-
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-    .lead{
-        padding-right: 100px;
-        padding-left: 100px;
-    }
-}
+   
