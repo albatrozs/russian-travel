@@ -18,3 +18,10 @@
         line-height: 26px;
     } 
 }
+
+@media all and (max-width: 767px){
+    .places__paragraph{
+        margin-right: 16px;
+        margin-left: 16px;
+    } 
+}
